@@ -35,4 +35,26 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    /*
+    |--------------------
+    |For Social Auth
+    |--------------------
+    */
+    'github' => [
+        'client_id' => '4106da8f52ae7883bb6b',
+        'client_secret' => 'dc1b4d995d48e3c1c81e542bbe6a7878da58c18c',
+        'redirect' => ''
+    ],
+    
+    'twitter' => [
+        'client_id' => 'QovQJky1diWy0LRftcGqN0Rgr',
+        'client_secret' => 'EK5dMcxbbZEJxlxFGIym22KaJVXUOJF2grR6AiJovyGY5T18OM',
+        'redirect' => ''
+    ],
+    
+    'google' => [
+        'client_id' => '341060933943-28mqgh89omhkke9tu6hfmc5imdn89jq7.apps.googleusercontent.com',
+        'client_secret' => 'Bg1CR-MT9bispwhjX8D6cggv',
+        'redirect' => 'https://laravel-vue-image-gathering-akariozora.c9users.io/'
+    ],
 ];
